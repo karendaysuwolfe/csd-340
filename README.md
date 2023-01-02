@@ -2,5 +2,5 @@
 # csd-340
 ## Contributors
 * Professor Sue Samspson
-* Karendaysu Wolfe
+* Karendaysu Wolfe  
 For Web Development with HTML
