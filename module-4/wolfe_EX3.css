@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#left-div, #right-div {
+  width: 45%;
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#bottom-div {
+  width: 100%;
+  margin-top: 60%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+#left-div h3 {
+  font-weight: 500;
+}
+
+#left-div ol {
+  font-weight: 300;
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 10px;
+  list-style: numbers;
+  list-style-position: inside;
+
+  
+}
+
+#right-div h3 {
+  font-weight: 500;
+  
+}
+
+#right-div ul {
+  font-weight: 300;
+  border: 1px dashed red;
+  border-radius: 15px;
+  padding: 10px;
+  list-style: upper-roman;
+  list-style-position: inside;
+  
+  
+}
