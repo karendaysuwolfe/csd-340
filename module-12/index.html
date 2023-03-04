@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>MyBio Assignment</title>
-    <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>My Name is Karendaysu</h1>
-    </header>
-    
-    <div class="container">
-        <section class="hobbies">
-            <h2>Hobbies</h2>
+   <head>
+      <meta charset="UTF-8">
+      <title>MyBio Assignment</title>
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <header>
+         <h1>My Name is Karendaysu</h1>
+         <nav>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
+               <li><a href="https://karendaysuwolfe.github.io/csd-340/">Landing Page</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section class="experience">
+         <h2>Hobbies</h2>
+         <div class="card">
+            <img src="images/travel.jpg" alt="Travel">
+            <h3>Travel</h3>
+            <p>I love traveling with my son and Husband. So far, we have been to Mexico, SWitzerland, and Italy. We plan on going to Germany and Czech next.</p>
+         </div>
+         </div>
+         <div class="col">
             <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Hobby 1">
-                <h3>Hobby 1</h3>
-                <p>Short description of hobby 1.</p>
+               <img src="images/food.jpg" alt="Food">
+               <h3>Food</h3>
+               <p>I know as humans, we love food. I really like to go out and try new resturants and explore different culture food. I Usually try a different resturant every few weeks.</p>
             </div>
+         </div>
+         <div class="col">
             <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Hobby 2">
-                <h3>Hobby 2</h3>
-                <p>Short description of hobby 2.</p>
+               <img src="images/biking.jpg" alt="Biking">
+               <h3>Biking</h3>
+               <p>I really enjoy a nice bike ride that can include a simple breeze ride such as riding down the road or MTB. </p>
             </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Hobby 3">
-                <h3>Hobby 3</h3>
-                <p>Short description of hobby 3.</p>
-            </div>
-        </section>
-
-        <section class="experience">
-            <h2>Experience</h2>
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Experience 1">
-                <h3>Experience 1</h3>
-                <p>Short description of experience 1.</p>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Experience 2">
-                <h3>Experience 2</h3>
-                <p>Short description of experience 2.</p>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Experience 3">
-                <h3>Experience 3</h3>
-                <p>Short description of experience 3.</p>
-            </div>
-        </section>
-
-        <section class="contact">
-            <form method="POST" action="process-form.php">
+         </div>
+         </div>
+      </section>
+      </div>
+      <section class="experience">
+         <h2>Experience</h2>
+         <div class="card">
+            <img src="images/Chipotle.png" alt="Chipotle">
+            <h3>Chipotle</h3>
+            <p>I have been working at Chipotle for 3+ years.  I started out as a crew member, eventually working my way up to a general manager.</p>
+         </div>
+         <div class="card">
+            <img src="images/nurse.jpg" alt="Nurse">
+            <h3>Nurse</h3>
+            <p>Bewfore I moved to USA, I went to college and worked as a nurse in Mexico.</p>
+         </div>
+         <div class="card">
+            <img src="images/english.jpg" alt="English">
+            <h3>English Helper</h3>
+            <p>While I was living in Mexico, in between my college graduation and work, I had to waite for my nurisng license to arrive.  I worked as a basic english helper to the teacher in exchange of more advance english classes.</p>
+         </div>
+      </section>
+      <section class="contact">
+         <form method="POST" action="process-form.php">
             <h2>Contact Me</h2>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname" required>
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </div>
-</body>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Send Message</button>
+         </form>
+      </section>
+   </body>
 </html>

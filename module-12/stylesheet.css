@@ -8,30 +8,32 @@ body {
 header {
   background-color: #3f21e4;
   color: #ffffff;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
 }
 
 nav ul li a {
   color: #000000;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 li {
@@ -50,12 +52,16 @@ h1 {
 }
 
 .container {
-  margin: 20px auto;
-  max-width: 800px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 section {
   margin: 20px 0;
+}
+
+section h2 {
+  text-align: center;
 }
 
 .card {
@@ -70,9 +76,9 @@ section {
 }
 
 .card img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
 }
 
 form {
@@ -110,3 +116,30 @@ button {
 button:hover {
   background-color: #555;
 }
+
+.hobby {
+  border: 2px solid #ddd;
+  padding: 10px;
+  width: 30%;
+  margin: 10px auto;
+}
+
+.experience {
+  border: 2px solid #ddd;
+  padding: 10px;
+  width: 30%;
+  margin: 10px auto;
+}
+
+.hobby-box, .experience-box {
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hobby-box, .experience-box {
+    margin-top: 20px;
+  }
+}
+
